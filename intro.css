@@ -1,0 +1,73 @@
+h2{
+    margin-left: 180px;
+    text-align: center;
+}
+
+
+p{
+    color:black ;text-align: left;
+    margin: 10px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+}
+
+.container {
+    display: flex; /* 启用Flexbox */
+    align-items: stretch; /* 使所有子项的高度相等 */
+}
+
+.container img {
+    max-width: 40%; /* 使图片响应式 */
+    height: auto; /* 保持图片的宽高比 */
+  }
+
+  .image-box {
+    flex: 2; /* flex项目将平均分配容器的空间 */
+    padding: 5px; /* 添加一些内边距 */
+  }
+
+  .text-box {
+    flex: 5; /* flex项目将平均分配容器的空间 */
+    padding: 10px; /* 添加一些内边距 */
+  }
+
+
+  .container1 img {
+    max-width: 20%; /* 使图片响应式 */
+    height: auto; /* 保持图片的宽高比 */
+  }
+
+
+  .image-box1 {
+    flex: 2; /* flex项目将平均分配容器的空间 */
+    padding: 5px; /* 添加一些内边距 */
+  }
+
+  .text-box1 {
+    flex: 5; /* flex项目将平均分配容器的空间 */
+    padding: 10px; /* 添加一些内边距 */
+    margin-left: 180px;
+  }
+
+
+
+img{
+    margin-left: 200px;
+    float: right; margin-right:3%;
+    object-fit: contain;
+}
+
+.intro-text:hover {
+  background:rgb(221, 160, 221,5);
+}
+
+
+
